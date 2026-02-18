@@ -1,6 +1,6 @@
 ;====================================================
 ; Program   : Armstrong Number Check (8051, 3-digit)
-; Author    : Demo
+; Author    : Revathy KV
 ; Function  : Checks if given number is Armstrong
 ; Result    : R7 = 01h ? Armstrong
 ;             R7 = 00h ? Not Armstrong
@@ -84,3 +84,4 @@ NOT_ARM:
 
 STOP:       
             SJMP STOP          ; Infinite loop
+
